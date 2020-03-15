@@ -7,7 +7,7 @@ const _contadorReducer = createReducer( initialState,
     on(decrementar, state => state -1),
     on(multiplicar, (state, { numero }) => state*numero ),
     on(dividir, (state, { numero }) => state/numero ),
-    on(reset, (state => initialState ))
+    on(reset, (state => 0))
 );
 
 export function contadorReducer(state, action){

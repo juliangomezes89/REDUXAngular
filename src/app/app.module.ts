@@ -5,7 +5,7 @@ import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HijoComponent } from './contador/hijo/hijo.component';
-import { NietoComponent } from './contador/nieto/nieto.component';
+import { NietoComponent } from './contador/hijo/nieto/nieto.component';
 
 import { StoreModule } from '@ngrx/store';
 import { contadorReducer } from './contador/contador.reducer';
